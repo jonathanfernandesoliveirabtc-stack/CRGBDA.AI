@@ -22,7 +22,7 @@ jobs:
       - name: Gerar APK
         run: |
           export PATH="$HOME/.local/bin:$PATH"
-          buildozer android debug
+          yes|buildozer android debug
 
       - name: Salvar APK
         uses: actions/upload-artifact@v4
