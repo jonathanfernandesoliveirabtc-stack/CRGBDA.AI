@@ -21,9 +21,10 @@ orientation = portrait
 
 # Versões do Android (tudo certinho aqui)
 android.api = 33
-android.minapi = 24
-android.ndk = 23b
-android.ndk_api = 24
+android.minapi = 21
+android.ndk = 25b
+android.ndk_api = 21
+android.build_tools_version = 34.0.0
 
 # Permissões para usar internet
 android.permissions = INTERNET, ACCESS_NETWORK_STATE
